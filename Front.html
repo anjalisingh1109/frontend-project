@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <script src="front.js"></script>
+    <link rel="stylesheet" href="front.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">First base</div>
+            <ul class="nav-list">
+                <li class="dropdown">
+                    <a href="#home">Product <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#home-a">First Base Start</a></li>
+                        <li><a href="#home-b">First Base Agent</a></li>
+                        <li><a href="#home-c">First Base Loop</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#launch">Company <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#launch-a">Blog</a></li>
+                        <li><a href="#launch-b">Help Center</a></li>
+                        <li><a href="#launch-c">Careers</a></li>
+                    </ul>
+                </li>
+                <li><a href="#news">Pricing</a></li>
+                <li><a href="#highlights">Reward</a></li>
+                <li class="dropdown">
+                    <a href="#launch">Partners <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="#launch-a">Firebase For Partners</a></li>
+                        <li><a href="#launch-b">Affiliates</a></li>
+                    
+                    </ul>
+                </li>
+                <li><a href="#contact">Sign in</a></li>
+                <button class="navbar-button">Start my business</button>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+          
+        </section>
+        <section id="launch" class="launch">
+            <h2>Launch your US business from anywhere, in minutes</h2>
+            <p class="beta">No paperwork or legal headaches. Our online platform automates the entire company formation process with compliance and 24/7 global customer support.</p>
+            <a href="#" class="btn">How It Works</a>
+        </section>
+        <section id="news" class="news">
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                <article class="news-item">
+                    <h3>Funding for Small Businesses</h3>
+                    <p> The U.S. Treasury Department has announced new funding initiatives under the State Small Business Credit Initiative (SSBCI). These funds, part of the Biden-Harris Administration’s Investing in America Agenda, are aimed at providing legal, accounting, and financial advisory services to small businesses in six states and three U.S. territories​ (U.S. Department of the Treasury)​.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="news-item">
+                    <h3>Startup Funding</h3>
+                    <p>In the U.S., venture capital funding for startups has seen a shift towards technology-driven sectors, particularly in artificial intelligence, healthcare technology, and clean energy. Startups in these sectors are more likely to attract investment​ (Patriot Software)​.</p>
+                    <a href="#">Read More</a>
+                </article>
+                <article class="news-item">
+                    <h3>E-commerce Growth</h3>
+                    <p> The e-commerce sector continues to grow globally, with increased consumer reliance on online shopping. Businesses starting in the e-commerce space should focus on enhancing their digital presence, ensuring cybersecurity, and providing seamless customer experiences​ (Patriot Software)​.
+
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+            </div>
+        </section>
+        <section id="highlights" class="highlights">
+            <h2>Highlights</h2>
+            <div class="highlights-grid">
+                <div class="highlight-item">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Fast and Reliable</h3>
+                    <p>We ensure quick and reliable service to meet your needs.</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure</h3>
+                    <p>Your security is our top priority. We provide top-notch security measures.</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-thumbs-up"></i>
+                    <h3>Quality Service</h3>
+                    <p>Our team is dedicated to providing high-quality service and support.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 firebase. All rights reserved.</p>
+    </footer>
+    <script src="front.js"></script>
+</body>
+</html>
